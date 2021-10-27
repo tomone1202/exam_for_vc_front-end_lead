@@ -9,7 +9,7 @@ import {
     ScrollView,
 } from "react-native";
 import axios from "axios";
-
+import {NavigationContainer} from '@react-navigation/native';
 export default function App() {
     // API位置 "https://randomuser.me/api/?results=20"
     //需求:請將data.results內的內容渲染五個不同分頁，分頁使用tab navigation製作
@@ -17,6 +17,8 @@ export default function App() {
     //在每個分頁設置一個btn，點擊後使當前分頁資料刷新
     //使用hook或class製作皆可
     //參考資料:https://reactnavigation.org/
+    //example video: https://streamable.com/grl9m2
+
     return (
         <NavigationContainer>
 

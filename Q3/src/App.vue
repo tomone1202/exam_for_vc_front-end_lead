@@ -46,6 +46,10 @@
 </template>
 
 <script>
+
+//需求:完成元件Calculator，使計算機功能正常，需顯示錯誤alert，在選擇平方及開根號時右方input需disabled
+//Calculator上的參數可增加
+//example video: https://streamable.com/i80qfn
 import Calculator from "./components/Calculator.vue";
 
 export default {

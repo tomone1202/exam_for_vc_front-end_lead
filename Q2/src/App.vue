@@ -7,6 +7,7 @@
 //將remark跟list合併並顯示渲染上頁面
 //要求:切換btn,角色圖片,角色table(需含title&remark,若isUseRed為true,使該角色角色table的remark呈紅字)
 //不須美化，功能有出現即可
+//example video: https://streamable.com/mb2lkw
 export default {
     name: "App",
 
